@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- Add a 2 second transition effect for width changes of the <div> element. -->
+<html>
+  <head>
+    <style> 
+      div {
+        width: 100px;
+        height: 100px;
+        background: red;
+        -webkit-transition: width 2s; /* Safari */
+        transition: width 2s;
+      }
+      
+      div:hover {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <p>Hover over the div element above.</p>
+  </body>
+</html>

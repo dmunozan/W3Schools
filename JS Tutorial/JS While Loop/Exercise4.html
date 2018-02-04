@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- Make the loop start counting downwards from 10 and stop at 1.
+
+The output should be 10 9 8 7 6 5 4 3 2 1 with line breaks. -->
+<html>
+  <body>
+    <p id="demo"></p>
+    <script>
+      var i = 10 /*0*/;
+      while (i > 0 /*< 10*/) {
+        document.getElementById("demo").innerHTML += i + "<br>";
+        i-- /*i++*/;
+      }
+    </script>
+  </body>
+</html>

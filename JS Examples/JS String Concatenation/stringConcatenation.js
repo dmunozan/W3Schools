@@ -10,7 +10,7 @@ var strNoNum = "Yellow";
 if ((str1 != null) & (str2 != null)) {
 	//Showing strings introduced by the user
 	document.getElementById("demo").innerHTML = "<h3>Initial Strings:</h3>"+
-		"<div class='results'><b>String 1</b>: "+str1+"</br>"+"<b>String 2</b>: "+str2+"</div>";
+		"<div class='results'><b>String 1</b>: "+str1+"<br>"+"<b>String 2</b>: "+str2+"</div>";
 
 	//Adding two strings together using the concatenating (+) operator
 	document.getElementById("demo").innerHTML += "<h3>Adding two strings together "+
@@ -38,8 +38,8 @@ if ((str1 != null) & (str2 != null)) {
 
 //Adding strings and numbers
 document.getElementById("demo").innerHTML += "<h2>Adding strings and numbers:</h2>"+
-	"<div class='results'><b>Number</b>: "+num+"</br><b>String number</b>: '"+strNum+
-	"'</br><b>String</b>: "+strNoNum+"</div>";
+	"<div class='results'><b>Number</b>: "+num+"<br><b>String number</b>: '"+strNum+
+	"'<br><b>String</b>: "+strNoNum+"</div>";
 
 //Number + String number
 var numPlusStrNum = num + strNum;

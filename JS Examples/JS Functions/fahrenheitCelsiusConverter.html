@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- JavaScript Functions - Fahrenheit/Celsius Converter -->
+<html>
+  <head>
+    <script src="fahrenheitCelsiusConverter.js" async></script>
+    <link type="text/css" rel="stylesheet" href="fahrenheitCelsiusConverter.css">
+  </head>
+  <body>
+
+  	<h1>Fahrenheit/Celsius Converter</h1>
+  	<div>
+  		<input id="inputFahrenheit" class="results" type="number" placeholder="Fahrenheit"
+  			oninput="fahrenheitToCelsius(this.value)" onchange="fahrenheitToCelsius(this.value)"><span>Fahrenheit</span><br>
+  		<input id="inputCelsius" class="results" type="number" placeholder="Celsius"
+  			oninput="celsiusToFahrenheit(this.value)" onchange="celsiusToFahrenheit(this.value)"><span>Celsius</span>
+  	</div>
+	
+  </body>
+</html>

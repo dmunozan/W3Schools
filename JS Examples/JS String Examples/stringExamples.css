@@ -1,0 +1,17 @@
+html {
+	margin-left: 10px;
+}
+
+body {
+	background-color: #F7F8E0;
+	font-family: Arial,sans-serif;
+}
+
+h3 {
+	margin-bottom: 2px;
+}
+
+.results {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}

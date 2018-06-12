@@ -63,7 +63,7 @@ var numList = [];
 for (var i=0;i<10;i++) {
 	numList.push(Math.floor(Math.random() * 100) + 1);
 }
-numList.sort();
+numList.sort(function(a, b){return a - b});
 document.getElementById("demo").innerHTML += "<h3>Random generated list for max and min " +
 	"methods:</h3><div class='results'><b>Number list</b>: " + numList + "</div>";
 
